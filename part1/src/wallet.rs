@@ -24,4 +24,11 @@ impl Wallet {
 
    Self { key_pair: keypair }
   }
+
+  pub fn generate_wallet(){}
+
+  fn get_keypair(Keypair_str:&String)->Keypair {
+    Keypair::from_bytes(&hex::decode(Keypair_str).expect("Hex to Byte conversion"))
+            .expect("Byte to Keypair conversion")
+  }
 }
