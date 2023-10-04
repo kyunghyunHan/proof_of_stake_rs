@@ -1,5 +1,9 @@
 use part1::Block;
-fn main() {
+use part1::Wallet;
+#[tokio::main]
+ async fn main() {
     // Block::new();
+    Wallet::new();
     println!("Hello, world!");
+    
 }
