@@ -5,5 +5,5 @@ use part1::Wallet;
     // Block::new();
     Wallet::new();
     println!("Hello, world!");
-    
+
 }
