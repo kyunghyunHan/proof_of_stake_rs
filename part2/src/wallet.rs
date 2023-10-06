@@ -45,3 +45,7 @@ impl Wallet {
 
   pub fn get_balance(){}
 }
+
+pub fn rand_address()->String{
+    Wallet::new()
+}
